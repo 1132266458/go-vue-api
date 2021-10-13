@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "go-vue-api/routes"
 
 func main() {
-	fmt.Println("1111")
+	routes.InitRouter()
 }
