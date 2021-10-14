@@ -34,3 +34,27 @@ go get gopkg.in/ini.v1
 go get -u github.com/sirupsen/logrus
 ```
 
+
+
+安装gorm包
+
+安装gorm MYSQL驱动
+
+```
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/mysql
+```
+
+安装验证器
+
+```
+go get github.com/go-playground/validator/v10
+```
+
+安装in18国际化
+
+```
+go get github.com/go-playground/universal-translator
+go get github.com/go-playground/locales
+```
+
