@@ -12,6 +12,7 @@ import (
  * 添加用户
  */
 func AddUser(c *gin.Context)  {
+
 	var data model.User
 	var msg string
 	var validCode int

@@ -1,0 +1,10 @@
+time="2021-10-15 11:13:48" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add SpendTime="3 ms" status=200
+time="2021-10-15 11:14:09" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add SpendTime="2 ms" status=200
+time="2021-10-15 11:19:51" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add SpendTime="2 ms" status=200
+time="2021-10-15 11:28:37" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData="&{0xc00049e7f8 <nil> <nil> false true {0 0} true false false 0xb4bb80}" SpendTime="1 ms" status=200
+time="2021-10-15 11:37:58" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData= SpendTime="2 ms" status=200
+time="2021-10-15 11:38:56" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData= SpendTime="2 ms" status=200
+time="2021-10-15 11:42:01" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData="<nil>" SpendTime="2 ms" status=200
+time="2021-10-15 11:50:22" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData="<nil>" SpendTime="1 ms" status=200
+time="2021-10-15 11:56:27" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData="<nil>" SpendTime="2 ms" status=200
+time="2021-10-15 11:57:43" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData="<nil>" SpendTime="1 ms" status=200

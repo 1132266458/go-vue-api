@@ -1,0 +1,2 @@
+time="2021-10-15T11:57:43+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData="<nil>" SpendTime="1 ms" status=200
+ue {0 0} true false false 0xb4bb80}" SpendTime="1 ms" status=200
