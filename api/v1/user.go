@@ -29,13 +29,16 @@ func AddUser(c *gin.Context)  {
 		return
 	}
 
-
-
-	model.CreateUser(&data)
+	//判断用户是否已存在
+	code := model.CheckUser(data.Username)
+	if code == errmsg.SUCCSE {
+		model.CreateUser(&data)
+	}
 
 	c.JSON(
 		200,gin.H{
 				"status":"200",
+				"message": errmsg.GetErrMsg(code),
 			},
 		)
 }

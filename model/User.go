@@ -12,6 +12,16 @@ type User struct {
 	Phone    string `gorm:"type:varchar(11);not null" json:"phone" validate:"required,len=11" label:"手机号"`
 }
 
+//通过用户名查询用户是否存在
+func CheckUser(username string) (code int) {
+	var user User
+	db.Select("id").Where("username = ?",username).First(&user)
+	if user.ID > 0 {
+		return errmsg.ERROR_USERNAME_USED
+	}
+	return errmsg.SUCCSE
+}
+
 //新增用户
 func CreateUser(data *User) int {
 	err := db.Create(&data).Error
