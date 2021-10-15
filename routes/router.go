@@ -14,7 +14,11 @@ func InitRouter()  {
 
 	router := r.Group("api")
 	{
+		//用户相关
 		router.POST("/user/add",v1.AddUser)
+
+		//第三方调用
+		router.GET("/message/send",v1.SendMessage)
 	}
 
 	_ = r.Run(utils.HttpPort)

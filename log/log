@@ -1,2 +1,9 @@
-time="2021-10-15T11:57:43+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add RequestData="<nil>" SpendTime="1 ms" status=200
-ue {0 0} true false false 0xb4bb80}" SpendTime="1 ms" status=200
+time="2021-10-15T15:20:34+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=29 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=GET Path="/api/message/send?phone=13828468980" SpendTime="171 ms" status=200
+atus=200
+time="2021-10-15T14:26:50+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=40 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=GET Path="/api/message/send?phone=13828468980&type0=5555" SpendTime="0 ms" status=200
+time/7.28.4 DataSize=32 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/message/send SpendTime="0 ms" status=200
+time="2021-10-15T14:09:57+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=33 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/message/send SpendTime="0 ms" status=200
+time="2021-10-15T14:10:04+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=33 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/message/send SpendTime="0 ms" status=200
+time="2021-10-15T14:12:29+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=48 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add SpendTime="0 ms" status=200
+time="2021-10-15T14:12:42+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=50 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add SpendTime="3 ms" status=200
+time="2021-10-15T14:12:46+08:00" level=info Agent=PostmanRuntime/7.28.4 DataSize=48 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=POST Path=/api/user/add SpendTime="0 ms" status=200
