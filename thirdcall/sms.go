@@ -22,18 +22,17 @@ func Send(phone string) (code int) {
 	data["content"] = "您好，您的验证码是：6666"
 
 
-	bytesData ,_ := json.Marshal(data)
+
+	bytesData ,_ := json.Marshal(&data)
 
 	fmt.Println(data)
 
 
 	req ,_ := http.NewRequest("POST","https://api.4321.sh/sms/send",bytes.NewReader(bytesData))
 	resp ,_ := client.Do(req)
-	body ,_ := ioutil.ReadAll(req.Body)
 
-	bodyp ,_ := ioutil.ReadAll(resp.Body)
+	body ,_ := ioutil.ReadAll(resp.Body)
 	fmt.Println(string(body))
-	fmt.Println(string(bodyp))
 
 
 

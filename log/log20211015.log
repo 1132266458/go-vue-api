@@ -37,3 +37,4 @@ time="2021-10-15 15:14:36" level=info Agent=PostmanRuntime/7.28.4 DataSize=29 Ho
 time="2021-10-15 15:15:33" level=info Agent=PostmanRuntime/7.28.4 DataSize=29 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=GET Path="/api/message/send?phone=13828468980" SpendTime="183 ms" status=200
 time="2021-10-15 15:17:35" level=info Agent=PostmanRuntime/7.28.4 DataSize=29 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=GET Path="/api/message/send?phone=13828468980" SpendTime="198 ms" status=200
 time="2021-10-15 15:19:07" level=info Agent=PostmanRuntime/7.28.4 DataSize=29 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=GET Path="/api/message/send?phone=13828468980" SpendTime="0 ms" status=200
+time="2021-10-15 15:20:34" level=info Agent=PostmanRuntime/7.28.4 DataSize=29 HostName=DESKTOP-5KLMTFF Ip=127.0.0.1 Method=GET Path="/api/message/send?phone=13828468980" SpendTime="171 ms" status=200
